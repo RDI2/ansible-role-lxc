@@ -1,6 +1,5 @@
 ---
 # defaults file for lxc
 
-lxc_internal_bridge_device: lxcbr0
 lxc_internal_ip_address: 192.168.34.1
 lxc_internal_ip_prefix: 24
