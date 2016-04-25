@@ -1,0 +1,4 @@
+---
+- hosts: all
+  roles:
+    - RDI2.lxc

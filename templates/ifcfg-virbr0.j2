@@ -1,0 +1,9 @@
+NAME=virbr0
+DEVICE=virbr0
+TYPE=Bridge
+BOOTPROTO=static
+ONBOOT=yes
+IPADDR={{ lxc_internal_ip_address }}
+PREFIX={{ lxc_internal_ip_prefix }}
+DEFROUTE=no
+NM_CONTROLLED=no

@@ -1,0 +1,8 @@
+---
+# handlers file for lxc
+
+- name: restart network
+  service: name=network state=restarted
+
+- name: load sysctl
+  shell: sysctl -p
